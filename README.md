@@ -13,32 +13,29 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Isaac de Oliveira Lima
+- Matricula: 898044
+- Proposta de projeto escolhida: Coleções e Itens
+- Breve descrição sobre seu projeto: Um site sobre carros e motos de colecionadores. O objetivo do site é mostra o valor de mercado dos carros colecionaveis, ficha tecnica, e curiosidades dos carros.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Pagina Home](public/img/Pagina Home.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Pagina detalhes](public/img/Pagina detalhes.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+const carros = [
+  { 
+    id: 1, 
+    nome: "Ford Mustang 1967", 
+    descricao: "Clássico americano, conhecido pela potência e estilo marcante.", 
+    imagem: "img/Ford Mustang 1967.jpg",
+    preco: "R$ 750.000",
+    detalhes: "O Ford Mustang 1967 é um dos muscle cars mais icônicos já produzidos. Com seu motor V8 e design agressivo, marcou o início de uma nova era na indústria automobilística americana. Este modelo ficou imortalizado em filmes e séries, representando liberdade e velocidade nas estradas dos anos 60."
   }
-]
-```
+];
