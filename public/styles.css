@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 107.9%;
+}
+
+body {
+    background-color: #453745;
+    
+}
+
+/* Cabeçalho - header*/
+.cabeçalho {
+    background-color: #35313b;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+.Logotipo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.form-busca input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-busca button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #f04e30;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+}
+
+.form-busca button:hover {
+    background-color: #d94324;
+}
+
+/* SIDENAV */
+.sidenav {
+   background-color: #ff1457;
+  padding: 20px;
+  border-radius: 8px;
+  max-height: 80vh;   
+  overflow-y: auto;
+}
+
+.sidenav h1 {
+    font-size: 190%;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidenav ul li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidenav ul li:hover {
+    background-color: #a85e5e;
+}
+
+/* CONTEUDO */
+.novidades {
+    background-color: #613C4C;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.apresentacao {
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+}
+
+.apresentacao h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.apresentacao p {
+    font-size: 1.2rem;
+}
+
+/* CARDS */
+.card {
+    background-color: #2b2c30;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.card a {
+  text-decoration: none;
+}
+
+.card h3,
+.card h5 {
+    margin: 10px 0 5px 0;
+    font-size: 23px;
+    color: white;
+}
+
+.card p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* FOOTER */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    
+    margin-top: 50px;
+    
+}
+
+.rodape p {
+    margin: 0;
+}
+
+.rodape form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.rodape input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.rodape button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+}
+
+.rodape button:hover {
+    background-color: #e65c00;
+}
